@@ -164,7 +164,7 @@ export default function ProductDetailModal({
                   onClick={handleOrderNow}
                   className="w-full px-6 py-3 bg-[#243247] text-[#e7ddcc] font-bold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
                 >
-                  اطلب الآن
+                  أُطلب الآن
                 </button>
               </div>
             )}
