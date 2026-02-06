@@ -60,7 +60,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
           <p className="product-name">© {currentYear} Orzi-1998.</p>
-          <p className="mt-2">خالد. راقٍ. أصيل.</p>
+          <p className="mt-2">.خالد. راقٍ. أصيل</p>
         </div>
       </div>
     </footer>
