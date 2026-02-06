@@ -7,7 +7,7 @@ export const collections: Collection[] = [
     nameAr: 'أورزي - بنطلون التراث',
     slug: 'heritage-trousers',
     description: 'A wide-cut fabric trouser inspired by classic old-money tailoring. Timeless, refined, and designed to last beyond trends.',
-    descriptionAr: 'قَصّة واسعة مستوحاة من الخياطة الكلاسيكية. صُنع ليبقى، لا ليتبع.',
+    descriptionAr: '.بنطلون كلاسيك بقصة واسعه للرجل والمرأة',
     status: 'coming-soon',
     image: '/orzi-heritage-trousers.jpg',
     productCount: 0,
