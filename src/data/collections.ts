@@ -18,7 +18,7 @@ export const collections: Collection[] = [
     nameAr: 'أورزي - ساعة التراث',
     slug: 'heritage-watch',
     description: 'A classic watch with heritage design that reflects ORZI\'s calm identity. Balanced details and timeless presence for men and women.',
-    descriptionAr: 'ساعة كلاسيكية بتصميم تراثي يعكس هوية ORZI الهادئة.\nتفاصيل متوازنة وحضور خالد للرجل والمرأة.',
+    descriptionAr: '.ساعة كلاسيكية بتصميم تراثي للرجل والمرأة',
     status: 'coming-soon',
     image: '/orzi-heritage-watch.jpg',
     productCount: 0,
