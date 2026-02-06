@@ -15,7 +15,7 @@ export default function CollectionGrid({
           <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-6">
             <span className="product-name">ORZI</span> <span> خط إصدارات</span>
           </h2>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto lh-lg">
+          <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             قطع متقنة تعبّر عن الهوية<br />من الإصدارات الأيقونية إلى التصاميم القادمة
           </p>
         </div>
