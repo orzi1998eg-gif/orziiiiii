@@ -22,8 +22,8 @@ export default function StorySection() {
 
         <div className="space-y-6 text-lg text-gray-700 font-light max-w-2xl mx-auto">
           <p>
-            <span className="product-name">Orzi 1998</span> ليست مجرد مجوهرات، بل فلسفة. كل إسورة تحمل جوهر الأناقة الخالدة،
-            مصممة لمن يدركون أن الفخامة الحقيقية تكمن في الرقي الهادئ.
+            وُلدت من أصالة الماضي وعراقة الزمن الجميل، لتعيد تقديم الأناقة التي لا تخضع لزمن ولا تتأثر بتقلبات الموضة
+            <br/>
           </p>
 
           <p>
