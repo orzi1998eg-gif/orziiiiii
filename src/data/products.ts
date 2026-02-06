@@ -37,7 +37,7 @@ export const products: Product[] = [
     image: '/curved.jpg',
     images: ['/curved.jpg', '/curved1.jpg', '/pack.jpeg'],
     description: 'The curved design flows with your natural movements, offering comfort and refined aesthetics. A statement piece for the discerning individual.',
-    descriptionAr: 'انحناءة تتبع حركتك، وتُكمل أسلوبك. راحة وأناقة في قطعة واحدة.',
+    descriptionAr: '.انحناءة تتبع حركتك، وتُكمل أسلوبك',
     status: 'available',
     specs: {
       material: 'Nickel Plated Brass',
