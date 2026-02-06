@@ -3,7 +3,7 @@ import { Product } from '../types/product';
 export const products: Product[] = [
   {
     id: 'aura-straight',
-    name: 'Aura - Straight Design',
+    name: 'AURA',
     nameAr: 'أورا - تصميم مستقيم',
     slug: 'aura-straight',
     price: 360,
@@ -29,7 +29,7 @@ export const products: Product[] = [
   },
   {
     id: 'harmonia-curved',
-    name: 'Harmonia - Curved Design',
+    name: 'HARMONIA',
     nameAr: 'هارمونيا - تصميم منحني',
     slug: 'harmonia-curved',
     price: 360,
@@ -55,7 +55,7 @@ export const products: Product[] = [
   },
   {
     id: 'sophia-curved-gold',
-    name: 'Sophia - Curved Gold Design',
+    name: 'SOPHIA',
     nameAr: 'صوفيا - تصميم منحني ذهبي',
     slug: 'sophia-curved-gold',
     price: 360,
@@ -67,8 +67,8 @@ export const products: Product[] = [
     status: 'available',
     specs: {
       material: 'Gold Plated Brass',
-      materialAr: 'نحاس مطلي بالذهب',
-      coating: 'Gold Plating',
+      materialAr: 'نحاس مطلي بالنيكل',
+      coating: 'Nickel Plating',
       coatingAr: 'طلاء ذهبي',
       resistance: 'Anti-tarnish & Corrosion Resistant',
       resistanceAr: 'مقاوم لتغير اللون والصدأ',
