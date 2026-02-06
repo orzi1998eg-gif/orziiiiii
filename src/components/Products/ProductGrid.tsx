@@ -22,7 +22,7 @@ export default function ProductGrid({
             ORZI مجموعة
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            قطع يدوية الصنع، تحمل توقيع الأناقة الخالدة
+            إكتشف سحر أساورنا المُصاغة يدوياً
           </p>
         </div>
 
