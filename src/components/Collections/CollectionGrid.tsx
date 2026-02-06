@@ -16,7 +16,7 @@ export default function CollectionGrid({
             <span className="product-name">ORZI</span> <span> خط إصدارات</span>
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            قطع متقنة تعبّر عن الهوية<br />من الإصدارات الأيقونية إلى التصاميم القادمة
+            قطع متقنة تعبّر عن الهوية<br /><br/>من الإصدارات الأيقونية إلى التصاميم القادمة
           </p>
         </div>
 
