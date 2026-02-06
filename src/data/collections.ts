@@ -29,7 +29,7 @@ export const collections: Collection[] = [
     nameAr: 'أورزي - أحذية التراث',
     slug: 'heritage-shoes',
     description: 'A shoe with classic Italian design that embodies quiet elegance. Made to complete the ORZI presence for men and women.',
-    descriptionAr: 'حذاء بتصميم إيطالي كلاسيكي يجسد الأناقة الهادئة.\nصُنع ليكمل حضور ORZI للرجل والمرأة.',
+    descriptionAr: '.حذاء تراثي بتصميم إيطالي للرجل والمرأة',
     status: 'coming-soon',
     image: '/orzi-heritage-shoes.jpg',
     productCount: 0,
