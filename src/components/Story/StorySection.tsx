@@ -22,6 +22,7 @@ export default function StorySection() {
 
         <div className="space-y-6 text-lg text-gray-700 font-light max-w-2xl mx-auto">
           <p>
+            ORZI
             وُلدت من أصالة الماضي وعراقة الزمن الجميل، لتعيد تقديم الأناقة التي لا تخضع لزمن ولا تتأثر بتقلبات الموضة
           </p>
 
