@@ -11,7 +11,7 @@ export const products: Product[] = [
     image: '/straight.jpg',
     images: ['/straight.jpg', '/straight1.jpg', '/pack.jpeg'],
     description: 'A timeless straight bracelet that embodies elegance and sophistication. Crafted with precision for those who appreciate understated luxury.',
-    descriptionAr: 'تصميم مستقيم، حضور هادئ. قطعة لمن يعرفون أن الأناقة تُرى قبل أن تُشرح.',
+    descriptionAr: '.تصميم مستقيم، حضور هادئ',
     status: 'available',
     specs: {
       material: 'Nickel Plated Brass',
