@@ -5,10 +5,6 @@ export default function Footer() {
     <footer className="bg-[#243247] text-white py-12 md:py-16">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h3 className="text-2xl font-bold mb-4 product-name">Orzi 1998</h3>
-          <p className="text-gray-300 text-sm mb-8">
-            خالد. راقٍ. أصيل.
-          </p>
 
           <div>
             <h4 className="text-lg font-bold mb-4">تواصل معنا</h4>
