@@ -13,10 +13,10 @@ export default function CollectionGrid({
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-4">
-            The ORZI Line
+            <span className="product-name">ORZI</span> <span>- خط الإصدارات</span>
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            A refined line of ORZI pieces,<br />from signature icons to upcoming designs.
+            قطع متقنة تعبّر عن الهوية<br />من الإصدارات الأيقونية إلى التصاميم القادمة
           </p>
         </div>
 

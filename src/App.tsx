@@ -136,7 +136,7 @@ function App() {
                 <X size={24} />
               </button>
               <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-12 text-center">
-                اطلب الآن
+                تقديم طلب
               </h2>
               <OrderForm onSubmit={handleSubmit} isSubmitting={isSubmitting} />
             </div>

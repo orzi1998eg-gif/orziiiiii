@@ -15,36 +15,34 @@ export default function StorySection() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-8 leading-tight">
-          Born from Heritage<br/>
-          Crafted for Identity<br/>
-          Worn with Confidence
+          وُلدت من التراث<br/>
+          صُنعت للهوية<br/>
+          تُلبس بثقة
         </h2>
 
         <div className="space-y-6 text-lg text-gray-700 font-light max-w-2xl mx-auto">
           <p>
-            Orzi 1998 represents more than jewelry—it's a philosophy. Each bracelet embodies
-            the essence of timeless elegance, designed for individuals who understand that true
-            luxury lies in understated sophistication.
+            <span className="product-name">Orzi 1998</span> ليست مجرد مجوهرات، بل فلسفة. كل إسورة تحمل جوهر الأناقة الخالدة،
+            مصممة لمن يدركون أن الفخامة الحقيقية تكمن في الرقي الهادئ.
           </p>
 
           <p>
-            Our heritage stretches back decades, rooted in the art of fine craftsmanship.
-            We believe in creating pieces that age gracefully, becoming part of your personal
-            narrative and style identity.
+            تراثنا يمتد لعقود، متجذر في فن الحرفية الراقية.
+            نؤمن بصناعة قطع تتقادم برشاقة، لتصبح جزءاً من سردك الشخصي وهويتك الأسلوبية.
           </p>
 
           <p>
-            In a world of fleeting trends, we stand for permanence. Our bracelets are not
-            mere accessories—they are heirlooms waiting to be inherited, treasures that whisper
-            stories of refinement and enduring taste.
+            في عالم الصيحات العابرة، نقف للثبات.
+            إسوراتنا ليست إكسسوارات عادية، بل إرث ينتظر أن يُورّث،
+            كنوز تهمس بقصص الرقي والذوق الأبدي.
           </p>
         </div>
 
         <div className="mt-12 pt-12 border-t border-gray-300">
           <p className="text-sm text-gray-600 font-semibold">
-            "Timeless. Refined. Heritage."
+            "خالد. راقٍ. أصيل."
           </p>
-          <p className="text-gray-500 mt-2">— Orzi 1998</p>
+          <p className="text-gray-500 mt-2 product-name">— Orzi 1998</p>
         </div>
       </div>
     </section>

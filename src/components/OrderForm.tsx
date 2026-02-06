@@ -185,7 +185,7 @@ export default function OrderForm({ onSubmit, isSubmitting }: OrderFormProps) {
               alt="إسورة مستقيمة"
               className="w-full h-48 object-cover rounded-lg mb-3"
             />
-            <p className="text-center font-semibold text-[#243247] mb-3">Aura</p>
+            <p className="text-center font-semibold text-[#243247] mb-3 product-name">Aura</p>
             <div className="flex items-center justify-center gap-2">
               <label htmlFor="straightQty" className="text-sm text-gray-700">
                 الكمية:
@@ -208,7 +208,7 @@ export default function OrderForm({ onSubmit, isSubmitting }: OrderFormProps) {
               alt="إسورة منحنية"
               className="w-full h-48 object-cover rounded-lg mb-3"
             />
-            <p className="text-center font-semibold text-[#243247] mb-3">Harmonia</p>
+            <p className="text-center font-semibold text-[#243247] mb-3 product-name">Harmonia</p>
             <div className="flex items-center justify-center gap-2">
               <label htmlFor="curvedQty" className="text-sm text-gray-700">
                 الكمية:
@@ -231,7 +231,7 @@ export default function OrderForm({ onSubmit, isSubmitting }: OrderFormProps) {
               alt="إسورة منحنية ذهبي"
               className="w-full h-48 object-cover rounded-lg mb-3"
             />
-            <p className="text-center font-semibold text-[#243247] mb-3">Sophia</p>
+            <p className="text-center font-semibold text-[#243247] mb-3 product-name">Sophia</p>
             <p className="text-center text-xs text-gray-600 mb-3">حصري للنساء</p>
             <div className="flex items-center justify-center gap-2">
               <label htmlFor="curvedGoldQty" className="text-sm text-gray-700">

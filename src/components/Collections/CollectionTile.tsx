@@ -11,19 +11,19 @@ export default function CollectionTile({
 }: CollectionTileProps) {
   const statusConfig = {
     available: {
-      label: 'Available',
+      label: 'متاح',
       bgColor: 'bg-green-500',
-      buttonLabel: 'Shop Now',
+      buttonLabel: 'اكتشف',
     },
     'coming-soon': {
-      label: 'Coming Soon',
+      label: 'قريباً',
       bgColor: 'bg-yellow-500',
-      buttonLabel: 'Notify Me',
+      buttonLabel: 'أُعلمني',
     },
     'sold-out': {
-      label: 'Sold Out',
+      label: 'نفذ',
       bgColor: 'bg-gray-500',
-      buttonLabel: 'Unavailable',
+      buttonLabel: 'غير متاح',
     },
   };
 
@@ -60,9 +60,9 @@ export default function CollectionTile({
           </span>
         </div>
 
-        <h3 className="text-3xl md:text-4xl font-bold mb-2">{collection.name}</h3>
+        <h3 className="text-3xl md:text-4xl font-bold mb-2 product-name">{collection.name}</h3>
         <p className="text-sm text-gray-200 mb-6 line-clamp-2">
-          {collection.description}
+          {collection.descriptionAr}
         </p>
 
         {collection.status === 'available' && collection.id !== 'bracelets' && (

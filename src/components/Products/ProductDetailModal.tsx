@@ -35,6 +35,12 @@ export default function ProductDetailModal({
     onClose();
   };
 
+  const statusLabels = {
+    available: 'متاح',
+    'coming-soon': 'قريباً',
+    'sold-out': 'نفذ',
+  };
+
   const statusColors = {
     available: 'text-green-600',
     'coming-soon': 'text-yellow-600',
@@ -102,55 +108,51 @@ export default function ProductDetailModal({
             )}
           </div>
 
-          <div className="w-full md:w-1/2 p-8 flex flex-col justify-between">
+          <div className="w-full md:w-1/2 p-8 flex flex-col justify-between" dir="rtl">
             <div>
               <div className="flex items-start justify-between mb-4">
                 <div>
-                  <h2 className="text-3xl font-bold text-[#243247] mb-2">
+                  <h2 className="text-3xl font-bold text-[#243247] mb-2 product-name">
                     {product.name}
                   </h2>
                   <p className={`text-sm font-semibold ${statusColors[product.status]}`}>
-                    {product.status === 'available'
-                      ? 'In Stock'
-                      : product.status === 'coming-soon'
-                        ? 'Coming Soon'
-                        : 'Sold Out'}
+                    {statusLabels[product.status]}
                   </p>
                 </div>
               </div>
 
               <p className="text-xl font-bold text-[#243247] mb-6">
-                ${product.price}
+                {product.price} جنيه
               </p>
 
-              <p className="text-gray-700 mb-8">{product.description}</p>
+              <p className="text-gray-700 mb-8">{product.descriptionAr}</p>
 
               <div className="space-y-4 mb-8">
-                <h3 className="text-lg font-bold text-[#243247]">Specifications</h3>
+                <h3 className="text-lg font-bold text-[#243247]">المواصفات</h3>
                 <div className="space-y-3 text-sm text-gray-700">
                   <div className="flex justify-between">
-                    <span className="font-semibold">Material:</span>
-                    <span>{product.specs.material}</span>
+                    <span className="font-semibold">الخامة:</span>
+                    <span>{product.specs.materialAr}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold">Coating:</span>
-                    <span>{product.specs.coating}</span>
+                    <span className="font-semibold">الطلاء:</span>
+                    <span>{product.specs.coatingAr}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold">Resistance:</span>
-                    <span>{product.specs.resistance}</span>
+                    <span className="font-semibold">المقاومة:</span>
+                    <span>{product.specs.resistanceAr}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold">Size:</span>
-                    <span>{product.specs.size}</span>
+                    <span className="font-semibold">المقاس:</span>
+                    <span>{product.specs.sizeAr}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold">Color:</span>
-                    <span>{product.specs.color}</span>
+                    <span className="font-semibold">اللون:</span>
+                    <span>{product.specs.colorAr}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="font-semibold">Unisex:</span>
-                    <span>{product.specs.unisex ? 'Yes' : 'No'}</span>
+                    <span className="font-semibold">للجنسين:</span>
+                    <span>{product.specs.unisex ? 'نعم' : 'لا'}</span>
                   </div>
                 </div>
               </div>
@@ -162,7 +164,7 @@ export default function ProductDetailModal({
                   onClick={handleOrderNow}
                   className="w-full px-6 py-3 bg-[#243247] text-[#e7ddcc] font-bold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
                 >
-                  Order Now
+                  اطلب الآن
                 </button>
               </div>
             )}

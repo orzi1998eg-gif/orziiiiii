@@ -11,7 +11,7 @@ export const products: Product[] = [
     image: '/straight.jpg',
     images: ['/straight.jpg', '/straight1.jpg', '/pack.jpeg'],
     description: 'A timeless straight bracelet that embodies elegance and sophistication. Crafted with precision for those who appreciate understated luxury.',
-    descriptionAr: 'إسورة مستقيمة خالدة تجسد الأناقة والرقي. مصنوعة بدقة لمن يقدرون الفخامة المتحفظة.',
+    descriptionAr: 'تصميم مستقيم، حضور هادئ. قطعة لمن يعرفون أن الأناقة تُرى قبل أن تُشرح.',
     status: 'available',
     specs: {
       material: 'Nickel Plated Brass',
@@ -37,7 +37,7 @@ export const products: Product[] = [
     image: '/curved.jpg',
     images: ['/curved.jpg', '/curved1.jpg', '/pack.jpeg'],
     description: 'The curved design flows with your natural movements, offering comfort and refined aesthetics. A statement piece for the discerning individual.',
-    descriptionAr: 'ينسجم التصميم المنحني مع حركاتك الطبيعية، مما يوفر الراحة والجمال المتقن. قطعة مميزة لصاحب الذوق الرفيع.',
+    descriptionAr: 'انحناءة تتبع حركتك، وتُكمل أسلوبك. راحة وأناقة في قطعة واحدة.',
     status: 'available',
     specs: {
       material: 'Nickel Plated Brass',
@@ -63,7 +63,7 @@ export const products: Product[] = [
     image: '/curvedgold.jpg',
     images: ['/curvedgold.jpg', '/curvedgold1.jpg', '/pack.jpeg'],
     description: 'Golden sophistication meets curved elegance. The Sophia bracelet captures warmth and heritage in every curve, a true heirloom piece.',
-    descriptionAr: 'الرقي الذهبي يلتقي بالأناقة المنحنية. تجسد إسورة صوفيا الدفء والتراث في كل منحنى، وهي قطعة إرث حقيقية.',
+    descriptionAr: 'دفء الذهب في تصميم أنثوي راقٍ. قطعة تُورّث، لا تُستبدل.',
     status: 'available',
     specs: {
       material: 'Gold Plated Brass',

@@ -6,14 +6,14 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Orzi 1998</h3>
+            <h3 className="text-2xl font-bold mb-4 product-name">Orzi 1998</h3>
             <p className="text-gray-300 text-sm">
-              Timeless. Refined. Heritage.
+              خالد. راقٍ. أصيل.
             </p>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-4">Connect</h4>
+            <h4 className="text-lg font-bold mb-4">تواصل معنا</h4>
             <div className="flex gap-4">
               <a
                 href="https://www.tiktok.com/@orzi.eg"
@@ -50,8 +50,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-sm text-gray-400">
-          <p>© {currentYear} Orzi-1998.</p>
-          <p className="mt-2">Timeless. Refined. Heritage.</p>
+          <p className="product-name">© {currentYear} Orzi-1998.</p>
+          <p className="mt-2">خالد. راقٍ. أصيل.</p>
         </div>
       </div>
     </footer>

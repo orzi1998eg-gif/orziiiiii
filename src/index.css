@@ -4,7 +4,15 @@
 
 @layer base {
   body {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Amiri', serif;
+  }
+}
+
+@layer components {
+  .product-name {
+    font-family: 'Cinzel', serif;
+    direction: ltr;
+    display: inline-block;
   }
 }
 

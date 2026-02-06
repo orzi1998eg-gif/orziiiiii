@@ -19,11 +19,11 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
 
       <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Timeless. Refined. Heritage.
+          خالد. راقٍ. أصيل.
         </h1>
 
         <p className="text-lg md:text-2xl text-white mb-12 font-light">
-          Discover bracelets & style identity
+          قطع لا تُحدّد بالزمن... بل تعيش خارجه
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -31,13 +31,13 @@ export default function Hero({ onShopClick, onStoryClick }: HeroProps) {
             onClick={onShopClick}
             className="px-8 py-4 bg-[#243247] text-[#e7ddcc] font-semibold rounded-lg hover:bg-[#e7ddcc] hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
           >
-            Explore the Collection
+            اكتشف القطع
           </button>
           <button
             onClick={onStoryClick}
             className="px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#243247] transition-all duration-300 transform hover:scale-105"
           >
-            Our Vision
+            رؤيتنا
           </button>
         </div>
       </div>
