@@ -17,7 +17,7 @@ export default function StorySection() {
         <h2 className="text-4xl md:text-5xl font-bold text-[#243247] mb-8 leading-tight">
           وُلِدت من التِراث<br/><br/>
           صُنِعت للهوية<br/><br/>
-          تُلبس بثقة
+          تُلبس بثقة<br/>
         </h2>
 
         <div className="space-y-6 text-lg text-gray-700 font-light max-w-2xl mx-auto">
