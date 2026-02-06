@@ -63,7 +63,7 @@ export const products: Product[] = [
     image: '/curvedgold.jpg',
     images: ['/curvedgold.jpg', '/curvedgold1.jpg', '/pack.jpeg'],
     description: 'Golden sophistication meets curved elegance. The Sophia bracelet captures warmth and heritage in every curve, a true heirloom piece.',
-    descriptionAr: 'دفء الذهب في تصميم أنثوي راقٍ. قطعة تُورّث، لا تُستبدل.',
+    descriptionAr: '.تصميم أنثوي راقٍ. قطعة تُورّث، لا تُستبدل',
     status: 'available',
     specs: {
       material: 'Gold Plated Brass',
